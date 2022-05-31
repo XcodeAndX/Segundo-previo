@@ -18,14 +18,14 @@ public class ConexionBD {
 
     
 
-    /**public static Connection getConnection() throws SQLException {
+    public static Connection getConnection() throws SQLException {
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(ConexionBD.class.getName()).log(Level.SEVERE, null, ex);
         }
         return getDataSource().getConnection();
-    }*/
+    }
 
     public static void close(Connection con) throws SQLException {
         con.close();
