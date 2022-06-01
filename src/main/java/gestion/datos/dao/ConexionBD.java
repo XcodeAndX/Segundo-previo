@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 public class ConexionBD {
 
-    public static final String JDBC_URL = "";
+    public static final String JDBC_URL = "jdbc:mysql://52.91.148.152:3306/happycan?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     public static final String BD_USUARIO = "usuario";
     public static final String BD_CLAVE = "usuario";
 
